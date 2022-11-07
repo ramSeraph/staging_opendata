@@ -183,6 +183,7 @@ to_scrape = {
         ]
     },
     "SKS/SKS_Figures/MapServer": {},
+    "TIS_Update/TIS_UPDATE/MapServer": {},
     "TSIIC/BaseLayers/MapServer": {},
     "TSIIC/Industrial_Infrastructure_Layers/MapServer": {},
     "TSTIS/MBasin/MapServer": {},
@@ -212,6 +213,10 @@ black_list = {
     "Plantation/Plantation_All/MapServer": [
         "Administrative Units Hyderabad Town/State Boundary_20",
         "Administrative Units Hyderabad Town/District Boundary_21",
+    ],
+    "TIS_Update/TIS_UPDATE/MapServer": [
+        "District_0",
+        "Mandal_1"
     ]
 }
 
@@ -240,7 +245,7 @@ if __name__ == '__main__':
 
     if sys.argv[1] == 'check':
         from esriscraper.check import run_checks
-        run_checks(analysis_folder, match_ignore, known_matches)
+        run_checks(data_folder, analysis_folder, match_ignore, known_matches)
         exit(0)
 
     if sys.argv[1] == 'scrape':
