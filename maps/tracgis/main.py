@@ -10,10 +10,10 @@ bucket_name = "tracgis_data"
 
 to_scrape = {
     "2bhk/2bhk/MapServer": {
-        "whitelist": {
-            "Plot Locations_0": {},
-            "30_TENDER_PARCELS_7": {}
-        }
+        "whitelist": [
+            "Plot Locations_0",
+            "30_TENDER_PARCELS_7",
+        ]
     },
     "Bhunaksha/Bhunaksha_Cadastral/MapServer": {
         "layer_params_map": {
