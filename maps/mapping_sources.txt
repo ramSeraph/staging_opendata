@@ -30,6 +30,7 @@ Andaman:
 Andhrapradesh:
 https://apsac.ap.gov.in/gisserver/rest/services
 https://gis.apcrda.org/server/rest/services
+http://dtcp.ap.gov.in/dtcpweb/Master_Plans.html
 
 Arunachalpradesh:
 
@@ -71,6 +72,8 @@ https://geoportal.mp.gov.in/satat
 https://aapdasuraksha.mp.gov.in/geoserver/wms?
 https://geoportal.mp.gov.in/geoportal/gis_data_repository.aspx
 
+Delhi:
+http://gsdl.org.in/arcgis/rest/services
 
 Haryana:
 https://gis.haryana.gov.in/viewrevrgeocode

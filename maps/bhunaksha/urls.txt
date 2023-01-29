@@ -1,0 +1,28 @@
+RAJASTHAN: "https://bhunaksha.raj.nic.in/"
+CHHATTISGARH: "https://bhunaksha.cg.nic.in/"
+KERALA: "https://emaps.kerala.gov.in/bhunaksha"
+ODISHA: "http://bhunakshaodisha.nic.in:8080/bhunaksha/"
+HIMACHAL PRADESH: "https://bhunakshahp.nic.in/"
+BIHAR: "http://bhunaksha.bih.nic.in/bhunaksha/"
+JHARKHAND: "https://jharbhunaksha.nic.in/"
+MAHARASHTRA: "https://mahabhunakasha.mahabhumi.gov.in/27/index.jsp"
+UTTAR PRADESH: "http://upbhunaksha.gov.in/bhunaksha/09/index.html"
+TAMIL NADU: "https://eservices.tn.gov.in/eservicesnew/land/fmbextract_en.html?lan=en"
+ANDHRA PRADESH: "http://meebhoomi.ap.gov.in/NewFMb1.aspx"
+GOA: "https://dslr.goa.gov.in/Bhunaksha.aspx"
+
+
+KARNATAKA: "https://kgis.ksrsac.in/kgis/webapi.aspx"
+DELHI: "http://gsdl.org.in/revenue/"
+TELANGANA: "https://dharani.telangana.gov.in/gis/"
+WEST BENGAL: "https://banglarbhumi.gov.in/BanglarBhumi/Home.action" - need a list of all plot numbers
+PUDUCHERRY: https://nilamagal.py.gov.in/
+GOA: http://www.dstegoa.gov.in/goa_structures1.pdf
+
+
+HARYANA: "https://hsac.org.in/eodb/" - broken - was working before
+ANDAMAN AND NICOBAR: "http://as.and.nic.in/bhunaksha/" - broken
+ASSAM: "http://revenueassam.nic.in/bhunakshag2c/" - broken
+ANDHRA PRADESH: "http://bhunaksha.ap.gov.in/bhunaksha/28/georef.html" - too slow and broken - meebhoomi available
+TAMIL NADU: "https://collabland-tn.gov.in/fmb/index.jsp" - doesnt work anymore - link from eservices works
+LAKSHADWEEP: "http://bhunaksha.utl.gov.in/" - mapservlet - broken
