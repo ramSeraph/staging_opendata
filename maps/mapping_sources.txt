@@ -31,6 +31,7 @@ Andhrapradesh:
 https://apsac.ap.gov.in/gisserver/rest/services
 https://gis.apcrda.org/server/rest/services
 http://dtcp.ap.gov.in/dtcpweb/Master_Plans.html
+https://apsac.ap.gov.in/geoserver/wms
 
 Arunachalpradesh:
 
