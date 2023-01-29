@@ -46,7 +46,14 @@ Karnataka:
 https://kgis.ksrsac.in/kgismaps/rest/services/KIADB/KIADB_Layers/MapServer
 https://kgis.ksrsac.in/kgis/downloads.aspx
 https://landrecords.karnataka.gov.in/service3/
-
+https://dev.ksrsac.in/maps/rest/services
+https://gisapp.bbmpgov.in/arcgis/rest/services
+https://kgis.ksrsac.in/kgismaps1/rest/services
+https://kgis.ksrsac.in/kgismaps2/rest/services
+https://kgis.ksrsac.in/kgismaps/rest/services
+https://stg1.ksrsac.in/kgismaps/rest/services
+https://stg1.ksrsac.in/maps/rest/services
+https://stg3.ksrsac.in/kgis/rest/services
 
 Kerala:
 http://gis.townplanning.kerala.gov.in/
@@ -98,3 +105,7 @@ http://databank.nedfi.com/
 smart_cities:
 varanasi:
 https://map.varanasismartcity.gov.in/server/rest/services
+
+Infrastructure:
+https://pgis.gail.co.in/server/rest/services/
+https://gisportal.indianoilcgd.com/server/rest/services
