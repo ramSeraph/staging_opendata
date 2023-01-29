@@ -42,6 +42,8 @@ http://trac.telangana.gov.in/trac/webgis.php
 http://tracgis.telangana.gov.in/arcgis/rest/services
 
 TamilNadu:
+https://tngis.tn.gov.in/geoserver/wms **need cookies from 'https://tngis.tn.gov.in/' from public login **
+https://tngis.tn.gov.in/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?1
 
 Karnataka:
 https://kgis.ksrsac.in/kgismaps/rest/services/KIADB/KIADB_Layers/MapServer
