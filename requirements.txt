@@ -2,7 +2,7 @@ attrs==22.1.0
 certifi==2022.9.24
 charset-normalizer==2.1.1
 -e git+git@github.com:ramSeraph/pyesridump.git@abd91c4fb981a64b3a9c37e6dcc303934f5b71a0#egg=esridump
--e git+git@github.com:ramSeraph/esriscraper.git@ebbb0ae5124a46397da3b20295c4fd9f2b0dabb8#egg=esriscraper
+-e git+git@github.com:ramSeraph/esriscraper.git@a4a64b327b326890f40d25b88b4ee031f31fb931#egg=esriscraper
 idna==3.4
 jsonschema==4.16.0
 pyrsistent==0.18.1
