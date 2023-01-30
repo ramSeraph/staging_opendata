@@ -112,3 +112,4 @@ https://map.varanasismartcity.gov.in/server/rest/services
 Infrastructure:
 https://pgis.gail.co.in/server/rest/services/
 https://gisportal.indianoilcgd.com/server/rest/services
+https://irgeoportal.gov.in/arcgis/rest/services
