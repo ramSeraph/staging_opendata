@@ -1,0 +1,2 @@
+CartoDEM -
+https://gis2.jharkhand.gov.in/arcgis/rest/services/Image/Jharkhand_State_Mosiac_Carto/ImageServer
