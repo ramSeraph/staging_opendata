@@ -45,6 +45,9 @@ TamilNadu:
 https://tngis.tn.gov.in/geoserver/wms **need cookies from 'https://tngis.tn.gov.in/' from public login **
 https://tngis.tn.gov.in/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?1
 
+Jharkhand:
+https://gis2.jharkhand.gov.in/arcgis/rest/services/JSAC/
+
 Karnataka:
 https://kgis.ksrsac.in/kgismaps/rest/services/KIADB/KIADB_Layers/MapServer
 https://kgis.ksrsac.in/kgis/downloads.aspx
@@ -81,6 +84,10 @@ https://mpssdi.mapit.gov.in/server/rest/services
 https://geoportal.mp.gov.in/satat
 https://aapdasuraksha.mp.gov.in/geoserver/wms?
 https://geoportal.mp.gov.in/geoportal/gis_data_repository.aspx
+https://geo.mpforest.gov.in/geoserver/rest/services/?f=json
+
+Punjab:
+https://gis-prsc.punjab.gov.in/arcgisserver/rest/services
 
 Delhi:
 http://gsdl.org.in/arcgis/rest/services
@@ -94,6 +101,7 @@ https://gis.wbprd.gov.in/secured/default.jsp
 https://maps.wbphed.gov.in/web_gis/
 https://banglaruchchashiksha.wb.gov.in/
 https://eodb.indiagis.org/eodb/gmap/map.jsp
+https://nhpgw.wb.gov.in/gisserver/rest/services/
 
 
 Uttarakhand:
