@@ -16,6 +16,7 @@ https://gis.ncog.gov.in/GeoserverWebAPI/wms144?
 https://electronics.ncog.gov.in/BIS/admin/wms/?
 https://iis.ncog.gov.in/parks/wms/?
 https://gis.ncog.gov.in/MPLAD/admin/wms/?
+https://parakh.ncog.gov.in/researchlab
 
 
 bharatmaps:
@@ -71,6 +72,14 @@ https://maps.keralamvd.gov.in/
 Maharashtra:
 https://portal.mrsac.org.in/webadpgis8/rest/services
 
+Meghalaya:
+https://meghalaya.ncog.gov.in/Meghalaya_Tourism/admin/wms/? 
+ - source url: https://test2.ncog.gov.in/meghalaya-server/explore-meghalaya 
+ - notes: not working.. but good to know something exists for the state
+
+Mizoram:
+https://services.arcgis.com/FEc21Sh8srpVELjm/ArcGIS/rest/services
+  - source url: https://covid19-mizoram-mirsacmizoram.hub.arcgis.com/
 
 Odisha:
 https://gis.investodisha.gov.in/arcgis/rest/services
