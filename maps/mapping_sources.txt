@@ -47,6 +47,7 @@ https://tngis.tn.gov.in/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo
 
 Jharkhand:
 https://gis2.jharkhand.gov.in/arcgis/rest/services/JSAC/
+https://gis1.jharkhand.gov.in/gisserver/rest/services
 
 Karnataka:
 https://kgis.ksrsac.in/kgismaps/rest/services/KIADB/KIADB_Layers/MapServer
