@@ -22,6 +22,8 @@ http://nbm.dgtelecom.gov.in:8080/geoserver/wms
 
 
 bharatmaps:
+https://webgis.nic.in/publishing/rest/services
+    - source url: lgdirectory.gov.in
 https://webgis1.nic.in/publishing/rest/services
 https://bharatnetprogress.nic.in/nicclouddb/rest/services
 https://mapservice.gov.in/mapserviceserv176/rest/services
