@@ -17,6 +17,8 @@ https://electronics.ncog.gov.in/BIS/admin/wms/?
 https://iis.ncog.gov.in/parks/wms/?
 https://gis.ncog.gov.in/MPLAD/admin/wms/?
 https://parakh.ncog.gov.in/researchlab
+https://vedas.sac.gov.in/geoserver/vedas/wms
+http://nbm.dgtelecom.gov.in:8080/geoserver/wms
 
 
 bharatmaps:
