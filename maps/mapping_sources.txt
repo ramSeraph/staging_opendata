@@ -115,13 +115,15 @@ Haryana:
 https://gis.haryana.gov.in/viewrevrgeocode
 https://hsacggm.in/map/rest/services/
 
+Rajasthan:
+https://gis.rajasthan.gov.in/proxy/proxy.ashx?https://gis.rajasthan.gov.in/rajasthan/rest/services/
+
 West bengal:
 https://gis.wbprd.gov.in/secured/default.jsp
 https://maps.wbphed.gov.in/web_gis/
 https://banglaruchchashiksha.wb.gov.in/
 https://eodb.indiagis.org/eodb/gmap/map.jsp
 https://nhpgw.wb.gov.in/gisserver/rest/services/
-
 
 Uttarakhand:
 http://ekotdwara.u-sac.in/
