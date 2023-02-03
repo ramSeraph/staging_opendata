@@ -24,7 +24,12 @@ bhuvan:
 https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms
 https://bhuvan-vec2.nrsc.gov.in/bhuvan/wms
 https://bhuvan-vec3.nrsc.gov.in/bhuvan/wms
+https://bhuvan-gp1.nrsc.gov.in/bhuvan/wms
+    - explore layers available: maps/bhuvan folder in this repo
 https://bhuvan-panchayat3.nrsc.gov.in/geoserver/wms
+    - alt api: https://bhuvan-panchayat3.nrsc.gov.in/graphql
+    - expore layers available: https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fbhuvan-panchayat3.nrsc.gov.in%2Fgraphql
+    - code to pull: maps/bhuvan_panchayat3 in this repo
 
 bharatmaps:
 https://webgis.nic.in/publishing/rest/services
