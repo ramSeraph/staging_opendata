@@ -33,17 +33,6 @@ match_ignore = {
 known_matches = {
 }
 
-def get_cookies():
-    from bs4 import BeautifulSoup
-    import requests
-
-    session = requests.session()
-    resp = session.get(riico_url)
-    if not resp.ok:
-        raise Exception(f'Unable to get {url}')
-    return resp.headers['Set-Cookie']
-
-
 
 if __name__ == '__main__':
     import os
@@ -53,9 +42,6 @@ if __name__ == '__main__':
 
     log_level = ( logging.DEBUG if os.environ.get('DEBUG', '0') == '1' else logging.INFO )
     logging.basicConfig(level=log_level)
-
-    base_params.update({
-    })
 
     data_folder = Path('data')
     analysis_folder = data_folder / 'analysis'
