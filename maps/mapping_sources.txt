@@ -39,6 +39,10 @@ https://bharatnetprogress.nic.in/nicclouddb/rest/services
 https://mapservice.gov.in/mapserviceserv176/rest/services
 https://geoportal.nic.in/nicgis/rest/services
 
+National:
+https://iuo.mohua.gov.in/arcgis/rest/services
+https://maps.icar.gov.in/gisserver/rest/services
+https://arc.indiawris.gov.in/server/rest/services
 
 Andaman:
 
