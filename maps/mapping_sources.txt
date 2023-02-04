@@ -44,25 +44,38 @@ https://iuo.mohua.gov.in/arcgis/rest/services
 https://maps.icar.gov.in/gisserver/rest/services
 https://arc.indiawris.gov.in/server/rest/services
 
-Andaman:
+Andaman and Nicobar Islands:
 
-Andhrapradesh:
+Andhra Pradesh:
 https://apsac.ap.gov.in/gisserver/rest/services
 https://gis.apcrda.org/server/rest/services
 http://dtcp.ap.gov.in/dtcpweb/Master_Plans.html
 https://apsac.ap.gov.in/geoserver/wms
 
-Arunachalpradesh:
+Arunachal Pradesh:
+
+Assam:
 
 Bihar:
 
-Telangana:
-http://trac.telangana.gov.in/trac/webgis.php
-http://tracgis.telangana.gov.in/arcgis/rest/services
+Chandigarh:
 
-TamilNadu:
-https://tngis.tn.gov.in/geoserver/wms **need cookies from 'https://tngis.tn.gov.in/' from public login **
-https://tngis.tn.gov.in/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?1
+Chhattisgarh:
+
+Delhi:
+http://gsdl.org.in/arcgis/rest/services
+
+Goa:
+
+Gujarat:
+
+Haryana:
+https://gis.haryana.gov.in/viewrevrgeocode
+https://hsacggm.in/map/rest/services/
+
+Himachal Pradesh:
+
+Jammu and Kashmir:
 
 Jharkhand:
 https://gis2.jharkhand.gov.in/arcgis/rest/services/JSAC/
@@ -87,8 +100,21 @@ http://gis.townplanning.kerala.gov.in:8080/geoserver/wms?
 http://www.ksdi.kerala.gov.in/ksdi/
 https://maps.keralamvd.gov.in/
 
+Ladakh:
+
+Lakshadweep:
+
+Madhya Pradesh:
+https://mpssdi.mapit.gov.in/server/rest/services
+https://geoportal.mp.gov.in/satat
+https://aapdasuraksha.mp.gov.in/geoserver/wms?
+https://geoportal.mp.gov.in/geoportal/gis_data_repository.aspx
+https://geo.mpforest.gov.in/geoserver/rest/services/?f=json
+
 Maharashtra:
 https://portal.mrsac.org.in/webadpgis8/rest/services
+
+Manipur:
 
 Meghalaya:
 https://meghalaya.ncog.gov.in/Meghalaya_Tourism/admin/wms/? 
@@ -99,6 +125,8 @@ Mizoram:
 https://services.arcgis.com/FEc21Sh8srpVELjm/ArcGIS/rest/services
   - source url: https://covid19-mizoram-mirsacmizoram.hub.arcgis.com/
 
+Nagaland:
+
 Odisha:
 https://gis.investodisha.gov.in/arcgis/rest/services
 https://odishairrigation.gov.in/arcgis/rest/services
@@ -106,37 +134,38 @@ http://odishasampad.orsac.gov.in/homepage.html
 https://odisha4kgeo.in/index.php/mapview/BoundaryView
 https://odishamap.orsac.gov.in/Forest_Panchayatiraj_System/service.svc/get
 
-
-Madhyapradesh:
-https://mpssdi.mapit.gov.in/server/rest/services
-https://geoportal.mp.gov.in/satat
-https://aapdasuraksha.mp.gov.in/geoserver/wms?
-https://geoportal.mp.gov.in/geoportal/gis_data_repository.aspx
-https://geo.mpforest.gov.in/geoserver/rest/services/?f=json
+Puducherry:
+https://gis.auroville.org.in/map
 
 Punjab:
 https://gis-prsc.punjab.gov.in/arcgisserver/rest/services
 
-Delhi:
-http://gsdl.org.in/arcgis/rest/services
-
-Haryana:
-https://gis.haryana.gov.in/viewrevrgeocode
-https://hsacggm.in/map/rest/services/
-
 Rajasthan:
 https://gis.rajasthan.gov.in/proxy/proxy.ashx?https://gis.rajasthan.gov.in/rajasthan/rest/services/
 
-West bengal:
+Sikkim:
+
+TamilNadu:
+https://tngis.tn.gov.in/geoserver/wms **need cookies from 'https://tngis.tn.gov.in/' from public login **
+https://tngis.tn.gov.in/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?1
+
+Telangana:
+http://trac.telangana.gov.in/trac/webgis.php
+http://tracgis.telangana.gov.in/arcgis/rest/services
+
+Uttarakhand:
+http://ekotdwara.u-sac.in/
+https://health.uk.gov.in/pages/display/110-health-facility-maps
+
+Uttar Pradesh:
+
+West Bengal:
 https://gis.wbprd.gov.in/secured/default.jsp
 https://maps.wbphed.gov.in/web_gis/
 https://banglaruchchashiksha.wb.gov.in/
 https://eodb.indiagis.org/eodb/gmap/map.jsp
 https://nhpgw.wb.gov.in/gisserver/rest/services/
 
-Uttarakhand:
-http://ekotdwara.u-sac.in/
-https://health.uk.gov.in/pages/display/110-health-facility-maps
 
 NorthEast:
 https://nesac.gov.in/
