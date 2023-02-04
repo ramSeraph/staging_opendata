@@ -153,6 +153,8 @@ Telangana:
 http://trac.telangana.gov.in/trac/webgis.php
 http://tracgis.telangana.gov.in/arcgis/rest/services
 
+Tripura:
+
 Uttarakhand:
 http://ekotdwara.u-sac.in/
 https://health.uk.gov.in/pages/display/110-health-facility-maps
