@@ -1,26 +1,19 @@
-Maharashtra - https://gsda.maharashtra.gov.in/english/index.php/GWRechargePriorityMap
-household counts: https://saubhagya.gov.in/dashboard/gsa
-SOI 1955 maps - https://maps.lib.utexas.edu/maps/ams/india/#A
-http://pahar.in/indian-subcontinent-pre-1899/
-JOG - https://maps.lib.utexas.edu/maps/jog/india/index_map.html
-Indian datum info - https://deeppradhan.heliohost.org/
+NOTES:
+Where possible add source websites so that tokens to access the gis servers can aslo be retrieved
 
 
-git@github.com:globalmaps/gmin10.git
-git@github.com:globalmaps/gmin20.git
-https://github.com/search?q=org%3AOpenGeoMetadata+india&type=Code
+BISAG-N:
+source url: https://bisag-n.gov.in/projects
+    https://gis.ncog.gov.in/GeoserverWebAPI/wms144?
+    https://electronics.ncog.gov.in/BIS/admin/wms/?
+    https://iis.ncog.gov.in/parks/wms/?
+    https://gis.ncog.gov.in/MPLAD/admin/wms/?
+    https://parakh.ncog.gov.in/researchlab
+    https://vedas.sac.gov.in/geoserver/vedas/wms
+    http://nbm.dgtelecom.gov.in:8080/geoserver/wms
 
 
-https://bisag-n.gov.in/projects
-https://gis.ncog.gov.in/GeoserverWebAPI/wms144?
-https://electronics.ncog.gov.in/BIS/admin/wms/?
-https://iis.ncog.gov.in/parks/wms/?
-https://gis.ncog.gov.in/MPLAD/admin/wms/?
-https://parakh.ncog.gov.in/researchlab
-https://vedas.sac.gov.in/geoserver/vedas/wms
-http://nbm.dgtelecom.gov.in:8080/geoserver/wms
-
-bhuvan:
+National Bhuvan:
 https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms
 https://bhuvan-vec2.nrsc.gov.in/bhuvan/wms
 https://bhuvan-vec3.nrsc.gov.in/bhuvan/wms
@@ -31,7 +24,8 @@ https://bhuvan-panchayat3.nrsc.gov.in/geoserver/wms
     - expore layers available: https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fbhuvan-panchayat3.nrsc.gov.in%2Fgraphql
     - code to pull: maps/bhuvan_panchayat3 in this repo
 
-bharatmaps:
+
+# National NIC:
 https://webgis.nic.in/publishing/rest/services
     - source url: lgdirectory.gov.in
 https://webgis1.nic.in/publishing/rest/services
@@ -39,10 +33,19 @@ https://bharatnetprogress.nic.in/nicclouddb/rest/services
 https://mapservice.gov.in/mapserviceserv176/rest/services
 https://geoportal.nic.in/nicgis/rest/services
 
-National:
+
+National Thematic:
 https://iuo.mohua.gov.in/arcgis/rest/services
 https://maps.icar.gov.in/gisserver/rest/services
 https://arc.indiawris.gov.in/server/rest/services
+
+National Infrastructure:
+https://pgis.gail.co.in/server/rest/services/
+https://gisportal.indianoilcgd.com/server/rest/services
+https://irgeoportal.gov.in/arcgis/rest/services
+
+
+# States
 
 Andaman and Nicobar Islands:
 
@@ -55,25 +58,35 @@ https://apsac.ap.gov.in/geoserver/wms
 Arunachal Pradesh:
 
 Assam:
+Cadastrals covered in https://bhuvan-panchayat3.nrsc.gov.in/graphql
 
 Bihar:
+http://bhunaksha.bih.nic.in/bhunaksha/
 
 Chandigarh:
 
 Chhattisgarh:
+https://bhunaksha.cg.nic.in/
 
 Delhi:
 http://gsdl.org.in/arcgis/rest/services
 
 Goa:
+https://dslr.goa.gov.in/Bhunaksha.aspx
+Covered to some extent in https://mapservice.gov.in/mapserviceserv176/rest/services/Matribhoomi/Matribhoomi/MapServer
 
 Gujarat:
+https://gis.ncog.gov.in/GeoserverWebAPI/wms61
+  - source url: https://gujarat.ncog.gov.in/GIDC/admin/gisModule
+https://gis.ncog.gov.in/GeoserverWebAPI/wms62
+  - source url: https://gujarat.ncog.gov.in/indextb/admin/gisModulePublic
 
 Haryana:
 https://gis.haryana.gov.in/viewrevrgeocode
 https://hsacggm.in/map/rest/services/
 
 Himachal Pradesh:
+https://bhunakshahp.nic.in/
 
 Jammu and Kashmir:
 
@@ -103,6 +116,8 @@ https://maps.keralamvd.gov.in/
 Ladakh:
 
 Lakshadweep:
+Cadastral maps covered in national section
+https://webgis1.nic.in/publishing/rest/services
 
 Madhya Pradesh:
 https://mpssdi.mapit.gov.in/server/rest/services
@@ -113,6 +128,8 @@ https://geo.mpforest.gov.in/geoserver/rest/services/?f=json
 
 Maharashtra:
 https://portal.mrsac.org.in/webadpgis8/rest/services
+https://gsda.maharashtra.gov.in/english/index.php/GWRechargePriorityMap
+  - probably covered in the above link
 
 Manipur:
 
@@ -154,12 +171,15 @@ http://trac.telangana.gov.in/trac/webgis.php
 http://tracgis.telangana.gov.in/arcgis/rest/services
 
 Tripura:
+Covered to some extent in https://mapservice.gov.in/mapserviceserv176/rest/services/Matribhoomi/Matribhoomi/MapServer
 
 Uttarakhand:
 http://ekotdwara.u-sac.in/
 https://health.uk.gov.in/pages/display/110-health-facility-maps
+Covered to some extent in https://bharatnetprogress.nic.in/nicclouddb/rest/services 
 
 Uttar Pradesh:
+http://upbhunaksha.gov.in/bhunaksha/09/index.html
 
 West Bengal:
 https://gis.wbprd.gov.in/secured/default.jsp
@@ -178,7 +198,4 @@ smart_cities:
 varanasi:
 https://map.varanasismartcity.gov.in/server/rest/services
 
-Infrastructure:
-https://pgis.gail.co.in/server/rest/services/
-https://gisportal.indianoilcgd.com/server/rest/services
-https://irgeoportal.gov.in/arcgis/rest/services
+
