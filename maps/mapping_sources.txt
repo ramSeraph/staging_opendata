@@ -95,9 +95,10 @@ https://gis2.jharkhand.gov.in/arcgis/rest/services/JSAC/
 https://gis1.jharkhand.gov.in/gisserver/rest/services
 
 Karnataka:
-https://kgis.ksrsac.in/kgismaps/rest/services/KIADB/KIADB_Layers/MapServer
-https://kgis.ksrsac.in/kgis/downloads.aspx
 https://landrecords.karnataka.gov.in/service3/
+https://kgis.ksrsac.in/kgis/downloads.aspx
+# Source website for below servers: https://dev.ksrsac.in/kgis/gisviewer.aspx or https://kgis.ksrsac.in/kgis/gisviewer.aspx 
+http://218.248.45.164:8080/arcgis/rest/services
 https://dev.ksrsac.in/maps/rest/services
 https://gisapp.bbmpgov.in/arcgis/rest/services
 https://kgis.ksrsac.in/kgismaps1/rest/services
