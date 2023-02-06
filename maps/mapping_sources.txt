@@ -1,5 +1,5 @@
 NOTES:
-Where possible add source websites so that tokens to access the gis servers can aslo be retrieved
+Where possible add source websites so that tokens to access the gis servers can also be retrieved
 
 
 BISAG-N:
@@ -21,7 +21,7 @@ https://bhuvan-gp1.nrsc.gov.in/bhuvan/wms
     - explore layers available: maps/bhuvan folder in this repo
 https://bhuvan-panchayat3.nrsc.gov.in/geoserver/wms
     - alt api: https://bhuvan-panchayat3.nrsc.gov.in/graphql
-    - expore layers available: https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fbhuvan-panchayat3.nrsc.gov.in%2Fgraphql
+    - explore layers available: https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fbhuvan-panchayat3.nrsc.gov.in%2Fgraphql
     - code to pull: maps/bhuvan_panchayat3 in this repo
 
 
@@ -73,6 +73,9 @@ http://gsdl.org.in/arcgis/rest/services
 
 Goa:
 https://dslr.goa.gov.in/Bhunaksha.aspx
+http://14.139.123.73:8080/geoserver/wms?
+    source url: http://14.139.123.73:9090/WEB/goabhoomi.php - has cadastrals
+    alt url: http://14.139.123.73/nbss/rest/services - not working
 Covered to some extent in https://mapservice.gov.in/mapserviceserv176/rest/services/Matribhoomi/Matribhoomi/MapServer
 
 Gujarat:

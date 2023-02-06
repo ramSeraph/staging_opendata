@@ -19,7 +19,10 @@ black_list = {
     "Common/Network/MapServer": [
         "Allroads_20"
     ],
-    "GIS_Survey/Basemap_GISSurvey/MapServer": None,
+    "Health/Patient_Tracker_Display/MapServer": None,
+    "RIICO/RIICOLANDBANK/MapServer": [
+        "Zones_3"
+    ]
 }
 
 folder_blacklist = [
