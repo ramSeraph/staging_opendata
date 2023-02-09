@@ -112,10 +112,12 @@ https://stg1.ksrsac.in/maps/rest/services
 https://stg3.ksrsac.in/kgis/rest/services
 
 Kerala:
-http://gis.townplanning.kerala.gov.in/
 http://gis.townplanning.kerala.gov.in:8080/geoserver/wms?
-http://www.ksdi.kerala.gov.in/ksdi/
+    - source url: http://gis.townplanning.kerala.gov.in/
 https://maps.keralamvd.gov.in/
+https://opensdi.kerala.gov.in/geoserver/ows?
+    - source level 1: http://www.ksdi.kerala.gov.in/ksdi/
+    - source level 2: https://opensdi.kerala.gov.in/
 
 Ladakh:
 
