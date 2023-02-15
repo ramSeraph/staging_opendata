@@ -1,6 +1,9 @@
 NOTES:
 Where possible add source websites so that tokens to access the gis servers can also be retrieved
 
+Global:
+ ESRI Imagery Metadata:
+    https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer
 
 BISAG-N:
 source url: https://bisag-n.gov.in/projects
@@ -115,7 +118,9 @@ Kerala:
 http://gis.townplanning.kerala.gov.in:8080/geoserver/wms?
     - source url: http://gis.townplanning.kerala.gov.in/
 https://maps.keralamvd.gov.in/
-http://kslublris.com/LRIS/Kerala/district.php
+http://kslublris.com/mapguide/mapagent/mapagent.fcgi?
+    - source url: http://kslublris.com/LRIS/Kerala/district.php
+    
 https://opensdi.kerala.gov.in/geoserver/ows?
     - source level 1: http://www.ksdi.kerala.gov.in/ksdi/
     - source level 2: https://opensdi.kerala.gov.in/
