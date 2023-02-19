@@ -90,6 +90,7 @@ https://gis.ncog.gov.in/GeoserverWebAPI/wms62
 Haryana:
 https://gis.haryana.gov.in/viewrevrgeocode
 https://hsacggm.in/map/rest/services/
+https://www.harsac.org/hisar-ward-boundary-map/ - might have seen this in vector form elsewhere as well
 
 Himachal Pradesh:
 https://bhunakshahp.nic.in/
