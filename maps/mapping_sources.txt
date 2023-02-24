@@ -41,6 +41,7 @@ National Thematic:
 https://iuo.mohua.gov.in/arcgis/rest/services
 https://maps.icar.gov.in/gisserver/rest/services
 https://arc.indiawris.gov.in/server/rest/services
+https://gmis.smartcities.gov.in/server/rest/services
 
 National Infrastructure:
 https://pgis.gail.co.in/server/rest/services/
@@ -143,6 +144,8 @@ Maharashtra:
 https://portal.mrsac.org.in/webadpgis8/rest/services
 https://gsda.maharashtra.gov.in/english/index.php/GWRechargePriorityMap
   - probably covered in the above link
+https://agsmaps.mcgm.gov.in/server/rest/services/
+https://gis.mngl.in/agserver/rest/services/
 
 Manipur:
 
