@@ -35,6 +35,8 @@ https://webgis1.nic.in/publishing/rest/services
 https://bharatnetprogress.nic.in/nicclouddb/rest/services
 https://mapservice.gov.in/mapserviceserv176/rest/services
 https://geoportal.nic.in/nicgis/rest/services
+https://mapservice.gov.in/gismapservice/rest/services
+    - source url: http://environmentclearance.nic.in/auth/Testmap1.aspx?type=ca&fname=25_Jan_2022_15193271027274183Polygon.kml&proposalno=IA/AP/NCP/253209/2022
 
 
 National Thematic:
