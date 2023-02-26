@@ -117,6 +117,8 @@ https://kgis.ksrsac.in/kgismaps/rest/services
 https://stg1.ksrsac.in/kgismaps/rest/services
 https://stg1.ksrsac.in/maps/rest/services
 https://stg3.ksrsac.in/kgis/rest/services
+http://awcka.indiagis.org/icdska/home.jsp
+    - anganwadi data
 
 Kerala:
 http://gis.townplanning.kerala.gov.in:8080/geoserver/wms?
@@ -128,6 +130,8 @@ http://kslublris.com/mapguide/mapagent/mapagent.fcgi?
 https://opensdi.kerala.gov.in/geoserver/ows?
     - source level 1: http://www.ksdi.kerala.gov.in/ksdi/
     - source level 2: https://opensdi.kerala.gov.in/
+http://www.awckl.indiagis.org/awckl/home.jsp
+    - anganwadi data
 
 Ladakh:
 
@@ -148,6 +152,7 @@ https://gsda.maharashtra.gov.in/english/index.php/GWRechargePriorityMap
   - probably covered in the above link
 https://agsmaps.mcgm.gov.in/server/rest/services/
 https://gis.mngl.in/agserver/rest/services/
+https://msrtc.indiagis.org/mrstc/map/index.jsp
 
 Manipur:
 
@@ -205,6 +210,15 @@ https://maps.wbphed.gov.in/web_gis/
 https://banglaruchchashiksha.wb.gov.in/
 https://eodb.indiagis.org/eodb/gmap/map.jsp
 https://nhpgw.wb.gov.in/gisserver/rest/services/
+http://icdswb.indiagis.org/icdswb/home.jsp
+    - anganwadi data
+http://ice.indiagis.org/ice/home.jsp
+   - indutrial parks
+http://msme.indiagis.org/eodb/gmap/map.jsp
+https://eodb.indiagis.org/eodb/gmap/map.jsp
+   - medium small scale industries
+http://meelib.indiagis.org/meelib/pages/home.jsp
+   - Mass education, schools and libraries
 
 
 NorthEast:

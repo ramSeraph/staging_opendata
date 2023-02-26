@@ -1,2 +1,3 @@
 household counts: https://saubhagya.gov.in/dashboard/gsa
+sdg data, reports and links: http://sdg.indiagis.org/sdgindia/home.jsp
 
