@@ -27,6 +27,10 @@ https://bhuvan-panchayat3.nrsc.gov.in/geoserver/wms
     - explore layers available: https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fbhuvan-panchayat3.nrsc.gov.in%2Fgraphql
     - code to pull: maps/bhuvan_panchayat3 in this repo
 
+National Bhuvan Natural Disaster data:
+https://ndrf.nrsc.gov.in//geoserver_v3_50d/gwc/service/wms
+    - source url: https://ndem.nrsc.gov.in/
+
 
 # National NIC:
 https://webgis.nic.in/publishing/rest/services
