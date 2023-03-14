@@ -161,6 +161,10 @@ https://agsmaps.mcgm.gov.in/server/rest/services/
 https://gis.mngl.in/agserver/rest/services/
 https://msrtc.indiagis.org/mrstc/map/index.jsp
 
+https://mybmcid.mcgm.gov.in/server/rest/services
+https://services8.arcgis.com/r6MmJtuWAzMawmJ8/ArcGIS/rest/services
+    - https://portal.mcgm.gov.in
+
 Manipur:
 
 Meghalaya:
