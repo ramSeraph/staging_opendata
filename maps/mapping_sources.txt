@@ -106,6 +106,9 @@ Himachal Pradesh:
 https://bhunakshahp.nic.in/
 
 Jammu and Kashmir:
+https://ssdi.jk.gov.in:4443/cgi-bin/IGiS_Ent_service.exe?IEG_PROJECT=JKSSDI_FINAL
+https://ssdi.jk.gov.in:4443/cgi-bin/IGiS_Ent_service.exe?IEG_PROJECT=osm_ws
+ - https://ssdi.jk.gov.in/map.php
 
 Jharkhand:
 https://gis2.jharkhand.gov.in/arcgis/rest/services/JSAC/
