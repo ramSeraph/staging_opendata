@@ -15,7 +15,6 @@ source url: https://bisag-n.gov.in/projects
     https://vedas.sac.gov.in/geoserver/vedas/wms
     http://nbm.dgtelecom.gov.in:8080/geoserver/wms
 
-
 National Bhuvan:
 https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms
 https://bhuvan-vec2.nrsc.gov.in/bhuvan/wms
@@ -28,6 +27,7 @@ https://bhuvan-panchayat3.nrsc.gov.in/geoserver/wms
     - code to pull: maps/bhuvan_panchayat3 in this repo
 
 National Bhuvan Natural Disaster data:
+https://ndrf.nrsc.gov.in/geoserver_v3_heavy/wms
 https://ndrf.nrsc.gov.in//geoserver_v3_50d/gwc/service/wms
     - source url: https://ndem.nrsc.gov.in/
 https://bhuvan-ras2.nrsc.gov.in/mapcache?
