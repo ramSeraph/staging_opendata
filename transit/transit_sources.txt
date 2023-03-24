@@ -1,2 +1,5 @@
+All India:
+    https://tis.nhai.gov.in/tollplazasonmap.aspx?language=en
+        - source url: https://tis.nhai.gov.in/
 Chennai:
     https://mtcbus.tn.gov.in/Home/routewiseinfo

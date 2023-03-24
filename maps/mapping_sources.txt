@@ -51,6 +51,11 @@ https://iuo.mohua.gov.in/arcgis/rest/services
 https://maps.icar.gov.in/gisserver/rest/services
 https://arc.indiawris.gov.in/server/rest/services
 https://gmis.smartcities.gov.in/server/rest/services
+https://bhukosh.gsi.gov.in/arcgis/rest/services
+https://dolr.gov.in/ - wasteland mapping pdf files
+http://14.139.123.73:8080/geoserver/wms?
+  - source: http://www.bhoomigeoportal-nbsslup.in/
+  - Soil and land usage related data
 
 National Infrastructure:
 https://pgis.gail.co.in/server/rest/services/
@@ -209,6 +214,7 @@ http://trac.telangana.gov.in/trac/webgis.php
 http://tracgis.telangana.gov.in/arcgis/rest/services
 
 Tripura:
+https://ceotripura.nic.in/sites/default/files/Constituency-Map-08-dec.pdf - constituency map
 Covered to some extent in https://mapservice.gov.in/mapserviceserv176/rest/services/Matribhoomi/Matribhoomi/MapServer
 
 Uttarakhand:

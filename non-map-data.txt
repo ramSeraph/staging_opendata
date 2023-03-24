@@ -1,3 +1,6 @@
 household counts: https://saubhagya.gov.in/dashboard/gsa
 sdg data, reports and links: http://sdg.indiagis.org/sdgindia/home.jsp
 
+Possible source of slum locations across karnataka
+ - Rajiv Awas Yojana - slum mapping
+
