@@ -34,6 +34,8 @@ https://bhuvan-ras2.nrsc.gov.in/mapcache?
 https://bhuvan-ras2.nrsc.gov.in/cgi-bin/mapserv.exe?map=/ms4w/apps/mapfiles/disaster_hyd.map&
     - source url: https://bhuvan-app1.nrsc.gov.in/disaster/disaster.php
 
+National Centre for Sustainable Coastal Management:
+https://gisportal.ncscm.res.in/server/rest/services/
 
 # National NIC:
 https://webgis.nic.in/publishing/rest/services
