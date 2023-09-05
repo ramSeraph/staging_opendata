@@ -83,6 +83,7 @@ Cadastrals covered in https://bhuvan-panchayat3.nrsc.gov.in/graphql
 
 Bihar:
 http://bhunaksha.bih.nic.in/bhunaksha/
+https://gisserver.bih.nic.in/arcgis/rest/services
 
 Chandigarh:
 
@@ -255,3 +256,8 @@ varanasi:
 https://map.varanasismartcity.gov.in/server/rest/services
 
 
+CICO ( cash In cash out? )
+https://services1.arcgis.com/9H64STM3PyG3DqUs/ArcGIS/rest/services/CICO_Access/FeatureServer/0 - ??
+https://services1.arcgis.com/9H64STM3PyG3DqUs/ArcGIS/rest/services/CICO_India_vFinal/FeatureServer
+https://services1.arcgis.com/9H64STM3PyG3DqUs/ArcGIS/rest/services/Airtel_points/FeatureServer/0 - airtel points
+https://services1.arcgis.com/9H64STM3PyG3DqUs/ArcGIS/rest/services/Village_Analysis_Map/FeatureServer/1 - all CICO points
