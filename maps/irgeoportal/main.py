@@ -9,16 +9,33 @@ base_params = {
 bucket_name = 'irgeoportal_data'
 
 to_scrape = {
+    #"Civil_Engineering_Assets/FeatureServer": {},
+    #"station_1_joined/FeatureServer": {},
+    #"railway_track_cris_somya/MapServer": {},
+    "UMP/Rail_Assets_Map/MapServer": {},
 }
 
 black_list = {
-    "MTC_TPZ/FeatureServer": None, 
-    "MTC_TPZ/MapServer": None, 
-    "offtrack_editing_v2/FeatureServer": None,
-    "offtrack_editing_v2/MapServer": None,
+    #"MTC_TPZ/FeatureServer": None, 
+    #"MTC_TPZ/MapServer": None, 
+    #"offtrack_editing_v2/FeatureServer": None,
+    #"offtrack_editing_v2/MapServer": None,
 }
 
 folder_blacklist = [
+    "26032019esri",
+    "ArcGISData",
+    "Certificates",
+    "Delete",
+    "Demo",
+    "Editing_Services",
+    "GIS",
+    "Hosted",
+    "IR_Asset",
+    "Orthophotos",
+    "POC",
+    "Test",
+    "Utilities",
 ]
 
 match_ignore = {
