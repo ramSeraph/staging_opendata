@@ -10,6 +10,19 @@ base_params = {
 bucket_name = 'rajasthan_gis_data'
 
 to_scrape = {
+    "GIS_Survey/Ward_Bndy_ULB/MapServer": {
+    },
+    "PHED_SMEK/PHED_SMEK/MapServer": {
+        "whitelist": [
+            "PHED/Ward Boundary_16"
+        ]
+    },
+    "GIS_Survey/ULB/MapServer": {
+        "whitelist": [
+            "Municipal Boundary_1",
+            "Building Footprint_5"
+        ]
+    }
 }
 
 black_list = {
@@ -22,7 +35,20 @@ black_list = {
     "Health/Patient_Tracker_Display/MapServer": None,
     "RIICO/RIICOLANDBANK/MapServer": [
         "Zones_3"
-    ]
+    ],
+    "Citizen/SearchPOI_R1/MapServer": [
+        "Anganwadi_41"
+    ],
+    "GIS_Survey/GIS_Survey_Data1/MapServer": [
+        "GIS Survey POI Data_0"
+    ],
+    "MJSA/MJSY/MapServer": [
+        "Khasra_3",
+        "Drainage/Drainage Line_5",
+        "Land Use_7",
+    ],
+    "RIICO/RIICOInternalFacilities_from_SDO/MapServer": ["Internal Facilities/Roads_2"],
+    "RoadAllocation/RoadAllocation/MapServer": [ "RAJ_STREETS_NONALLOCATED_3" ],
 }
 
 folder_blacklist = [
