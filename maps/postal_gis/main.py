@@ -7,7 +7,8 @@ logger = logging.getLogger(__name__)
 
 base_url = 'https://webgis.nic.in/publishing/rest/services'
 
-token = "u_o2hxqMWNqb1v7QuxdfuxxeXs7xYsdPGEd-aopLFkFqZ1fQ16NriIuWt2phnr2PItrXtlgAZtn6JNuduvXkcA.."
+# TODO: pick automatically from page.. next time?
+token = "LFFsVAR6Zo17lk12KOYg6216EquuOdsywx2LbAGfPkD7MI6N2p25JhH3XQJ3aUizvQW9EJ5TNhgAVvlaZITRFA.."
 
 base_headers = {
     'Accept': '*/*',
