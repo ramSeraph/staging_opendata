@@ -54,7 +54,11 @@ to_scrape = {
     "landrecord/GM_Land/MapServer": {},
     "Census/Census_jharkhand/MapServer": {},
     "Registration/Registration_Data_Chatra/MapServer": {},
-    "CUJ/Cuj_boundary/MapServer": {}
+    "CUJ/Cuj_boundary/MapServer": {},
+    "JSAC/Urban_boundary/MapServer": {},
+    "JSAC/Forest/MapServer": {
+        "whitelist": [ 'Forest Village Boundary_18', 'Forest Plot Boundary_19' ]
+    }
 }
 
 black_list = {
