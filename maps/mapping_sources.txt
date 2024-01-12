@@ -228,6 +228,7 @@ Covered to some extent in https://bharatnetprogress.nic.in/nicclouddb/rest/servi
 
 Uttar Pradesh:
 http://upbhunaksha.gov.in/bhunaksha/09/index.html
+https://uttarpradesh.ncog.gov.in/up/up.html
 
 West Bengal:
 https://gis.wbprd.gov.in/secured/default.jsp
@@ -244,7 +245,8 @@ https://eodb.indiagis.org/eodb/gmap/map.jsp
    - medium small scale industries
 http://meelib.indiagis.org/meelib/pages/home.jsp
    - Mass education, schools and libraries
-
+ULBs:
+https://nagargispariseva.wb.gov.in/geoserver/WBAMRUT/wfs
 
 NorthEast:
 https://nesac.gov.in/
@@ -254,7 +256,13 @@ http://databank.nedfi.com/
 smart_cities:
 varanasi:
 https://map.varanasismartcity.gov.in/server/rest/services
+bhubaneshwar:
+https://bhubaneswarone.in/arcgis/rest/services/
+Noida:
+https://umd.nic.in/server/rest/services
 
+swachch bharat mission urban:
+https://prodgis.sbmurban.org/server/rest/services
 
 CICO ( cash In cash out? )
 https://services1.arcgis.com/9H64STM3PyG3DqUs/ArcGIS/rest/services/CICO_Access/FeatureServer/0 - ??
