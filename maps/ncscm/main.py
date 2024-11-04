@@ -67,8 +67,6 @@ if __name__ == '__main__':
                                 to_scrape=to_scrape,
                                 blacklist=black_list,
                                 ignore_layer_types=['Raster Layer'],
-                                post_processing_func=compress_and_push_to_gcs,
-                                post_processing_func_args={ 'bucket_name': bucket_name },
                                 delay=15,
                                 max_delay=900)
         exit(0)
