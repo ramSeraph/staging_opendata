@@ -1,4 +1,4 @@
-base_url = "https://gisserver.bih.nic.in/arcgis/rest/services"
+base_url = "https://gsdl.org.in/arcgis/rest/services"
 base_params = {
     "max_page_size": 1000,
     "pause_seconds": 2,
@@ -6,19 +6,28 @@ base_params = {
     "num_of_retry": 5,
     "timeout": 300
 }
-bucket_name = 'gisserver_bih_data'
+bucket_name = 'hrsac_data'
 
 to_scrape = {
-    "HOME_DEPT/THANA_BOUNDARY/MapServer": {}
+    "DUSIB/DUSIB/MapServer": { "whitelist": [ "SlumBoundary_2" ] }
+    #"Delhi_Police/Delhi_Police/MapServer": { 'whitelist': ['PS_BOUNDARY_2'] }
+    #"Onemap_Haryana/EODB_HFD/MapServer": {}
 }
 
+
 black_list = {
+        #"SampleWorldCities/MapServer": None
 }
 
 folder_blacklist = [
 ]
 
 match_ignore = {
+   #        "Hosted/MapServer": None,
+   #        "SampleWorldCities/MapServer": None,
+   #        "WMS_WFS/Sahibganj_Cadastral_Map/MapServer": None,
+   #        "WMS_WFS/Simdega_WMS/MapServer": None,
+   #        "JSAC/Cadastral_Map_webiste/MapServer": None
 }
 
 known_matches = {

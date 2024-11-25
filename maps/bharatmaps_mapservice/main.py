@@ -19,7 +19,7 @@ to_scrape = {
     #    ]
     #},
     #"RajasthanWaterBody/RajasthanWaterBody/MapServer": {},
-    #"Matribhoomi/Matribhoomi/MapServer": {}
+    "Matribhoomi/Matribhoomi/MapServer": {},
     "Panchayat/AdminGPHierarchy/MapServer": {
         "layer_params_map": {
             "District_1": {

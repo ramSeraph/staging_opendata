@@ -1,4 +1,4 @@
-base_url = "https://gisserver.bih.nic.in/arcgis/rest/services"
+base_url = "https://apsflgis1.apsfl.co.in/server/rest/services"
 base_params = {
     "max_page_size": 1000,
     "pause_seconds": 2,
@@ -6,16 +6,26 @@ base_params = {
     "num_of_retry": 5,
     "timeout": 300
 }
-bucket_name = 'gisserver_bih_data'
+bucket_name = 'apsac_data'
 
 to_scrape = {
-    "HOME_DEPT/THANA_BOUNDARY/MapServer": {}
+    "BBNLPhase2/FeatureServer": { "whitelist": [ "BBNL_Phase2_OLTs_0",
+                                                 "BBNL_Phase2_GPs_1",
+                                                 "BBNL_Phase2_OFC_2", ] },
+
 }
 
 black_list = {
+    "APSFLPhase1BBNLPhase2Network/FeatureServer": None,
+    "APSFLPhase1BBNLPhase2Network/MapServer": None,
+    "Enterprise_Project_Updated/FeatureServer": None,
+    "Enterprise_Project_Updated/MapServer": None,
 }
 
 folder_blacklist = [
+    "BBNL",
+    "Test",
+    "Utilities",
 ]
 
 match_ignore = {

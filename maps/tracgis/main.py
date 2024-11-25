@@ -1,4 +1,4 @@
-base_url = "http://tracgis.telangana.gov.in/arcgis/rest/services"
+base_url = "http://tgracgis.telangana.gov.in/arcgis/rest/services"
 base_params = {
     "max_page_size": 1000,
     "pause_seconds": 2,
@@ -190,6 +190,8 @@ to_scrape = {
     "TSTIS/Jurisdiction/MapServer": {},
     "TSTIS/Tanks/MapServer": {},
     "TSTIS/Streams/MapServer": {},
+    "Police/Police_Queries1/MapServer": { "whitelist": ["TS_Policestation_Boundaries_Final_11" ] },
+    "Police/Police_Web1/MapServer": { "whitelist": ["Level5 Jurisdiction_24"]},
 }
 
 
@@ -257,8 +259,8 @@ if __name__ == '__main__':
                                 to_scrape=to_scrape,
                                 blacklist=black_list,
                                 ignore_layer_types=['Raster Layer'],
-                                post_processing_func=compress_and_push_to_gcs,
-                                post_processing_func_args={ 'bucket_name': bucket_name },
+                                #post_processing_func=compress_and_push_to_gcs,
+                                #post_processing_func_args={ 'bucket_name': bucket_name },
                                 delay=15,
                                 max_delay=900)
         exit(0)

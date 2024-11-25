@@ -1,8 +1,8 @@
 base_url = "https://gis.rajasthan.gov.in/rajasthan/rest/services"
 base_params = {
-    "max_page_size": 1000,
+    "max_page_size": 100,
     "pause_seconds": 2,
-    "requests_to_pause": 10,
+    "requests_to_pause": 100,
     "num_of_retry": 5,
     "timeout": 300,
     "proxy": "https://gis.rajasthan.gov.in/proxy/proxy.ashx?"
@@ -22,7 +22,20 @@ to_scrape = {
             "Municipal Boundary_1",
             "Building Footprint_5"
         ]
-    }
+    },
+    "Settlement/SettlementData/MapServer": {
+        "whitelist": [ "Khasra_0" ],
+        "layer_params_map": {
+            "Khasra_0": { "max_page_size": 1000 }
+        }
+    },
+    "Common/PoliceBndy/MapServer": {
+        "whitelist": [ "Police Thana Boundary_0",
+                       "New Police Thana Draft Boundary:03-11-2022 (26)_9",
+                       "GRP Admin Boundary/GRP Thana Boundary_5" ]
+    },
+    #"Citizen/SearchPOI_I/MapServer": {
+    #}
 }
 
 black_list = {

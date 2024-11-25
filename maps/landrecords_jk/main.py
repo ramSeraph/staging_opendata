@@ -1,15 +1,16 @@
-base_url = "https://gisserver.bih.nic.in/arcgis/rest/services"
+base_url = "http://192.168.0.56:6080/arcgis/rest/services"
 base_params = {
     "max_page_size": 1000,
     "pause_seconds": 2,
     "requests_to_pause": 10,
     "num_of_retry": 5,
-    "timeout": 300
+    "timeout": 300,
+    "proxy": "https://landrecords.jk.gov.in/Areas/Map/proxy/proxy.ashx?"
 }
-bucket_name = 'gisserver_bih_data'
+bucket_name = 'landrevenue_gis_data'
 
 to_scrape = {
-    "HOME_DEPT/THANA_BOUNDARY/MapServer": {}
+        "CIS/JKLR_BasemapLayer12072018_ORCL2/MapServer": { "whitelist": ["Khasra_3", "ULPIN4_7"] }
 }
 
 black_list = {
@@ -19,6 +20,8 @@ folder_blacklist = [
 ]
 
 match_ignore = {
+   #"Hosted/MapServer": None,
+   #"SampleWorldCities/MapServer": None,
 }
 
 known_matches = {

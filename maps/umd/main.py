@@ -1,4 +1,4 @@
-base_url = "https://gisserver.bih.nic.in/arcgis/rest/services"
+base_url = "https://umd.nic.in/sramap/rest/services"
 base_params = {
     "max_page_size": 1000,
     "pause_seconds": 2,
@@ -6,19 +6,26 @@ base_params = {
     "num_of_retry": 5,
     "timeout": 300
 }
-bucket_name = 'gisserver_bih_data'
+bucket_name = 'hrsac_data'
 
 to_scrape = {
-    "HOME_DEPT/THANA_BOUNDARY/MapServer": {}
+    #"Onemap_Haryana/EODB_HFD/MapServer": {}
 }
 
+
 black_list = {
+        "SampleWorldCities/MapServer": None
 }
 
 folder_blacklist = [
 ]
 
 match_ignore = {
+   #        "Hosted/MapServer": None,
+   #        "SampleWorldCities/MapServer": None,
+   #        "WMS_WFS/Sahibganj_Cadastral_Map/MapServer": None,
+   #        "WMS_WFS/Simdega_WMS/MapServer": None,
+   #        "JSAC/Cadastral_Map_webiste/MapServer": None
 }
 
 known_matches = {
@@ -58,8 +65,8 @@ if __name__ == '__main__':
                                 to_scrape=to_scrape,
                                 blacklist=black_list,
                                 ignore_layer_types=['Raster Layer'],
-                                #post_processing_func=compress_and_push_to_gcs,
-                                #post_processing_func_args={ 'bucket_name': bucket_name },
+                                post_processing_func=compress_and_push_to_gcs,
+                                post_processing_func_args={ 'bucket_name': bucket_name },
                                 delay=15,
                                 max_delay=900)
         exit(0)

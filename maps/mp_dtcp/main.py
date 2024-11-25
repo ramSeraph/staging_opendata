@@ -1,4 +1,4 @@
-base_url = "https://gisserver.bih.nic.in/arcgis/rest/services"
+base_url = "https://dtcp.mp.gov.in/server/rest/services"
 base_params = {
     "max_page_size": 1000,
     "pause_seconds": 2,
@@ -6,16 +6,17 @@ base_params = {
     "num_of_retry": 5,
     "timeout": 300
 }
-bucket_name = 'gisserver_bih_data'
+bucket_name = 'mp_dtcp_data'
 
 to_scrape = {
-    "HOME_DEPT/THANA_BOUNDARY/MapServer": {}
 }
 
 black_list = {
 }
 
 folder_blacklist = [
+    "admin_boundary",
+    "Amrut_town",
 ]
 
 match_ignore = {

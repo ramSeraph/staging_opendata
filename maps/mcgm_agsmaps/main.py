@@ -1,4 +1,4 @@
-base_url = "https://gisserver.bih.nic.in/arcgis/rest/services"
+base_url = "https://agsmaps.mcgm.gov.in/server/rest/services/"
 base_params = {
     "max_page_size": 1000,
     "pause_seconds": 2,
@@ -9,7 +9,6 @@ base_params = {
 bucket_name = 'gisserver_bih_data'
 
 to_scrape = {
-    "HOME_DEPT/THANA_BOUNDARY/MapServer": {}
 }
 
 black_list = {
