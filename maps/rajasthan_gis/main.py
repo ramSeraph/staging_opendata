@@ -1,3 +1,13 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "esriscraper",
+# ]
+#
+# [tool.uv.sources]
+# esriscraper = { git = "https://github.com/ramSeraph/esriscraper" }
+# ///
+
 base_url = "https://gis.rajasthan.gov.in/rajasthan/rest/services"
 base_params = {
     "max_page_size": 100,
@@ -10,30 +20,30 @@ base_params = {
 bucket_name = 'rajasthan_gis_data'
 
 to_scrape = {
-    "GIS_Survey/Ward_Bndy_ULB/MapServer": {
-    },
-    "PHED_SMEK/PHED_SMEK/MapServer": {
-        "whitelist": [
-            "PHED/Ward Boundary_16"
-        ]
-    },
-    "GIS_Survey/ULB/MapServer": {
-        "whitelist": [
-            "Municipal Boundary_1",
-            "Building Footprint_5"
-        ]
-    },
+    #"GIS_Survey/Ward_Bndy_ULB/MapServer": {
+    #},
+    #"PHED_SMEK/PHED_SMEK/MapServer": {
+    #    "whitelist": [
+    #        "PHED/Ward Boundary_16"
+    #    ]
+    #},
+    #"GIS_Survey/ULB/MapServer": {
+    #    "whitelist": [
+    #        "Municipal Boundary_1",
+    #        "Building Footprint_5"
+    #    ]
+    #},
     "Settlement/SettlementData/MapServer": {
         "whitelist": [ "Khasra_0" ],
         "layer_params_map": {
             "Khasra_0": { "max_page_size": 1000 }
         }
     },
-    "Common/PoliceBndy/MapServer": {
-        "whitelist": [ "Police Thana Boundary_0",
-                       "New Police Thana Draft Boundary:03-11-2022 (26)_9",
-                       "GRP Admin Boundary/GRP Thana Boundary_5" ]
-    },
+    #"Common/PoliceBndy/MapServer": {
+    #    "whitelist": [ "Police Thana Boundary_0",
+    #                   "New Police Thana Draft Boundary:03-11-2022 (26)_9",
+    #                   "GRP Admin Boundary/GRP Thana Boundary_5" ]
+    #},
     #"Citizen/SearchPOI_I/MapServer": {
     #}
 }
@@ -52,6 +62,12 @@ black_list = {
     "Citizen/SearchPOI_R1/MapServer": [
         "Anganwadi_41"
     ],
+    "GatiShakti/GatiShakti/MapServer": [
+        "RAMS/Road Inventory/Road Type_114",
+        "RAMS/Road Inventory/Shoulder Width_117",
+        "RAMS/Road Inventory/Terrain Type_119",
+        "RAMS/Road Furniture/Road Furniture_127",
+    ],
     "GIS_Survey/GIS_Survey_Data1/MapServer": [
         "GIS Survey POI Data_0"
     ],
@@ -60,6 +76,22 @@ black_list = {
         "Drainage/Drainage Line_5",
         "Land Use_7",
     ],
+    "RRAMS/Environment/MapServer": [
+        "Religious Places_0"
+    ],
+    "RRAMS/RoadCondition/MapServer": [
+        "Roughness_0",
+        "Rutting_6",
+    ],
+    "RRAMS/RoadFurniture/MapServer": [
+        "Road Furniture_0",
+    ],
+    "RRAMS/RoadInventory/MapServer": [
+        "Road Type_0",
+        "Shoulder Width_3",
+        "Terrain Type_5",
+    ],
+    "RRAMS/WorkProgramme/MapServer": None,
     "RIICO/RIICOInternalFacilities_from_SDO/MapServer": ["Internal Facilities/Roads_2"],
     "RoadAllocation/RoadAllocation/MapServer": [ "RAJ_STREETS_NONALLOCATED_3" ],
 }
@@ -109,8 +141,8 @@ if __name__ == '__main__':
                                 to_scrape=to_scrape,
                                 blacklist=black_list,
                                 ignore_layer_types=['Raster Layer'],
-                                post_processing_func=compress_and_push_to_gcs,
-                                post_processing_func_args={ 'bucket_name': bucket_name },
+                                #post_processing_func=compress_and_push_to_gcs,
+                                #post_processing_func_args={ 'bucket_name': bucket_name },
                                 delay=15,
                                 max_delay=900)
         exit(0)
