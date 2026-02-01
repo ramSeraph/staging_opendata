@@ -19,8 +19,9 @@ National Bhuvan:
 https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms
 https://bhuvan-vec2.nrsc.gov.in/bhuvan/wms
 https://bhuvan-vec3.nrsc.gov.in/bhuvan/wms
-https://bhuvan-gp1.nrsc.gov.in/bhuvan/wms
-    - explore layers available: maps/bhuvan folder in this repo
+https://bhuvan-gp1.nrsc.gov.in/bhuvan
+https://bhuvanpanchayat.nrsc.gov.in/bhuvan/wms
+    - use pywmsdump to explore and extract
 https://bhuvan-panchayat3.nrsc.gov.in/geoserver/wms
     - alt api: https://bhuvan-panchayat3.nrsc.gov.in/graphql
     - explore layers available: https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fbhuvan-panchayat3.nrsc.gov.in%2Fgraphql
@@ -55,6 +56,7 @@ https://gisservrsdiv.nic.in/bharatmaps/rest/services
 National Thematic:
 https://iuo.mohua.gov.in/arcgis/rest/services
 https://maps.icar.gov.in/gisserver/rest/services
+https://darkarea.ncog.gov.in/BIS/gisdashboard
 https://arc.indiawris.gov.in/server/rest/services
 https://gmis.smartcities.gov.in/server/rest/services
 https://bhukosh.gsi.gov.in/arcgis/rest/services
@@ -64,8 +66,7 @@ http://14.139.123.73:8080/geoserver/wms?
   - Soil and land usage related data
 https://wwfindiawebgis.in/gisserver/rest/services
 https://odis.incois.gov.in/gisserver/rest/services
-ps://samudra.incois.gov.in/geoserver
-https://bhukosh.gsi.gov.in/arcgis/rest/services
+https://samudra.incois.gov.in/geoserver
 https://gis-dm.ndma.gov.in/server/rest/services
 North Eastern Regional Node for Disaster Risk Reduction
  - https://nerdrr.gov.in/geoserver
@@ -79,13 +80,24 @@ Advisory flood forcast:
  - https://aff.india-water.gov.in/geoserver
 Hydro-meteorological Resilient Action Plans (HmRAP)
     - http://180.211.110.20/geoserver/
-https://gisnmcg.mowr.gov.in/server/rest/services/Hosted
+Jal Shakti:
+    - https://gisnmcg.mowr.gov.in/server/rest/services/Hosted
+Atal Jal:
+    - https://ataljal-arcgis.mowr.gov.in/ajserver/rest/services
+https://irad.parivahan.gov.in/geoserver/wms
+
+https://geodataindia.gov.in/guestuser/wmsurl128/
+    - https://geodataindia.gov.in/
 
 National Infrastructure:
 https://pgis.gail.co.in/server/rest/services/
 https://gisportal.indianoilcgd.com/server/rest/services
 https://irgeoportal.gov.in/arcgis/rest/services
+https://gis.fci.gov.in/geoserver/wms
+https://parakh.ncog.gov.in/wms61 - layer: medical, lab_layer, calibration 
 
+Living atlas
+https://livingatlas.esri.in/server/rest/services
 
 # States
 
@@ -98,6 +110,8 @@ http://dtcp.ap.gov.in/dtcpweb/Master_Plans.html
 https://apsac.ap.gov.in/geoserver/wms
 https://gis.aptransco.co.in/server/rest/services
 https://apsflgis1.apsfl.co.in/server/rest/services
+https://gisapiic.in/server/rest/services
+https://apsdmagis.ap.gov.in/gisserver/rest/services
 
 Arunachal Pradesh:
 
@@ -108,6 +122,7 @@ https://smartaxom.nesdr.gov.in/
 Bihar:
 http://bhunaksha.bih.nic.in/bhunaksha/
 https://gisserver.bih.nic.in/arcgis/rest/services
+https://gis.fmiscwrdbihar.gov.in/arcgis/rest/services - flood monitoring
 
 Chandigarh:
 
@@ -122,6 +137,7 @@ http://gsdl.org.in/arcgis/rest/services
 Goa:
 https://dslr.goa.gov.in/Bhunaksha.aspx
 https://bhunakshawms.goa.gov.in/geoserver
+ttps://idc.goa.gov.in/geoserver/
 http://14.139.123.73:8080/geoserver/wms?
     source url: http://14.139.123.73:9090/WEB/goabhoomi.php - has cadastrals
     alt url: http://14.139.123.73/nbss/rest/services - not working
@@ -136,12 +152,14 @@ https://gis.ncog.gov.in/GeoserverWebAPI/wms62
 https://dssegov.gidcgujarat.org:4443/geoserver
   - source url: https://dssegov.gidcgujarat.org:4443/devl/maps_b/all/index.php
 https://gscdlgis.gandhinagarsmartcity.in/GandhinagarGIS/
+https://gujarat.ncog.gov.in/indextb/admin/wmsurl62
 
 Haryana:
 https://gis.haryana.gov.in/viewrevrgeocode
 https://hsacggm.in/map/rest/services/
 https://www.harsac.org/hisar-ward-boundary-map/ - might have seen this in vector form elsewhere as well
 https://onemapggm.mcg.gov.in/server/rest/services - Gurgram
+https://onemapdepts.gmda.gov.in/imgsrv/rest/services
 
 Himachal Pradesh:
 https://bhunakshahp.nic.in/
@@ -173,6 +191,7 @@ https://stg3.ksrsac.in/kgis/rest/services
 http://www.ksrsac.karnataka.gov.in/arcgis/rest/services
 http://awcka.indiagis.org/icdska/home.jsp
     - anganwadi data
+https://water.karnataka.gov.in/geoserver/KA/ows
 
 Kerala:
 http://gis.townplanning.kerala.gov.in:8080/geoserver/wms?
@@ -182,6 +201,7 @@ http://kslublris.com/mapguide/mapagent/mapagent.fcgi?
     - source url: http://kslublris.com/LRIS/Kerala/district.php
 https://entebhoomi.kerala.gov.in/web/home
 https://geoserver.entebhoomi.kerala.gov.in/geoserver
+https://wlris.kslub.kerala.gov.in/
     
 https://opensdi.kerala.gov.in/geoserver/ows?
     - source level 1: http://www.ksdi.kerala.gov.in/ksdi/
@@ -204,6 +224,8 @@ https://geoportal.mp.gov.in/geoportal/gis_data_repository.aspx
 https://geo.mpforest.gov.in/geoserver/rest/services/?f=json
 https://dtcp.mp.gov.in/server/rest/services
     - https://dtcp.mp.gov.in/homepage/index.html
+http://115.124.119.97:8080/geoserver
+    - madhya pradesh electrical
 
 Maharashtra:
 https://portal.mrsac.org.in/webadpgis8/rest/services
@@ -221,6 +243,7 @@ https://umd.nic.in/sramap/rest/services
 https://prsrvgisapp.mcgm.gov.in/server/rest/services
 https://maps.kdmc.gov.in/agserver/rest/services
 https://agsmaps1.mcgm.gov.in/server/rest/services
+http://115.124.110.188:8080/geoserver - parcel data and more?
 
 Manipur:
 https://marsac.mn.gov.in/geoserver
@@ -243,6 +266,7 @@ https://odishairrigation.gov.in/arcgis/rest/services
 http://odishasampad.orsac.gov.in/homepage.html
 https://odisha4kgeo.in/index.php/mapview/BoundaryView
 https://odishamap.orsac.gov.in/Forest_Panchayatiraj_System/service.svc/get
+https://mapserver.odishaforestgis.in/geoserver
 
 Puducherry:
 https://gis.auroville.org.in/map
@@ -251,10 +275,13 @@ Punjab:
 https://gis-prsc.punjab.gov.in/arcgisserver/rest/services
 https://punjabgis.punjab.gov.in:8085/geoserver
 https://punjabroadsgis.gov.in/
+https://punjab.ncog.gov.in/admin/wms
 
 Rajasthan:
 https://gis.rajasthan.gov.in/proxy/proxy.ashx?https://gis.rajasthan.gov.in/rajasthan/rest/services/
 https://gistest1.rajasthan.gov.in/rajasthan/rest/services
+https://gisprod.rajasthan.gov.in/hosting/rest/services
+https://gistest2.rajasthan.gov.in/rajdharaa/sharing/servers/b350aee0fe294d1b97e8e1a22b798e0a/rest/services/Forest/Forest_Wildlife_Surveillance/MapServer
 
 Sikkim:
 
@@ -262,10 +289,12 @@ TamilNadu:
 https://tngis.tn.gov.in/geoserver/wms **need cookies from 'https://tngis.tn.gov.in/' from public login **
 https://tngis.tn.gov.in/geoserver/
 https://gis.forests.tn.gov.in/server/rest/services
+https://gisgcc.chennaicorporation.gov.in/server/rest/services
 
 Telangana:
 http://trac.telangana.gov.in/trac/webgis.php
 http://tracgis.telangana.gov.in/arcgis/rest/services
+http://tgracgis.telangana.gov.in/arcgis/rest/services
 
 Tripura:
 https://ceotripura.nic.in/sites/default/files/Constituency-Map-08-dec.pdf - constituency map
@@ -281,6 +310,8 @@ Uttar Pradesh:
 http://upbhunaksha.gov.in/bhunaksha/09/index.html
 https://uttarpradesh.ncog.gov.in/up/up.html
 https://umd.nic.in/pwd/rest/services
+https://raptiffm.fmisc.up.gov.in//geoserver/
+https://map.varanasismartcity.gov.in/server/rest/services
 
 West Bengal:
 http://geoportal-dstbt.wb.gov.in:8080/geoserver/
@@ -323,12 +354,6 @@ Land and Developmnet office
 https://geo.nic.in/server/rest/services
 - https://geo.nic.in/edharti/Map.aspx
     
-
-CICO ( cash In cash out? )
-https://services1.arcgis.com/9H64STM3PyG3DqUs/ArcGIS/rest/services/CICO_Access/FeatureServer/0 - ??
-https://services1.arcgis.com/9H64STM3PyG3DqUs/ArcGIS/rest/services/CICO_India_vFinal/FeatureServer
-https://services1.arcgis.com/9H64STM3PyG3DqUs/ArcGIS/rest/services/Airtel_points/FeatureServer/0 - airtel points
-https://services1.arcgis.com/9H64STM3PyG3DqUs/ArcGIS/rest/services/Village_Analysis_Map/FeatureServer/1 - all CICO points
 
 New:
     ???:
