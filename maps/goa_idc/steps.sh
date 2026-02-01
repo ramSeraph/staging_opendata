@@ -1,6 +1,6 @@
 #!/bin/bash
 
-uvx --from wmsdump wms-extractor explore --geoserver-url https://idc.goa.gov.in/geoserver -o layers.txt
+uvx --from wmsdump wms-extractor explore --geoserver-url https://idc.goa.gov.in/geoserver -o data/layers.txt
 
 cat data/layers.txt| grep NDUSTRIAL_ESTATE | xargs -I {} uvx --from wmsdump wms-extractor extract --geoserver-url https://idc.goa.gov.in/geoserver -m extent -d data {}
 
