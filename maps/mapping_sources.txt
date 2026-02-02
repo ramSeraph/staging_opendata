@@ -226,6 +226,7 @@ https://dtcp.mp.gov.in/server/rest/services
     - https://dtcp.mp.gov.in/homepage/index.html
 http://115.124.119.97:8080/geoserver
     - madhya pradesh electrical
+https://webgis2.mpbhulekh.gov.in/
 
 Maharashtra:
 https://portal.mrsac.org.in/webadpgis8/rest/services
